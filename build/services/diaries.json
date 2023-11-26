@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "date": "12/10/2022",
+        "weather": "rainy",
+        "visibility": "zero",
+        "comment": "It was a bad moment, I was very scared. I thought that I wouldn't be able to escape. For that reason, I decided to write this diary. At least, if I die someday, there will be a record of my history."
+    },
+    {
+        "id": 2,
+        "date": "15/10/2022",
+        "weather": "clear",
+        "visibility": "excellent",
+        "comment": "Today's flight was amazing! The weather was clear, and visibility was excellent. I enjoyed every moment in the sky."
+    },
+    {
+        "id": 3,
+        "date": "20/10/2022",
+        "weather": "cloudy",
+        "visibility": "ok",
+        "comment": "A bit of turbulence due to the cloudy weather, but overall, it was a smooth flight. Looking forward to the next adventure."
+    }
+]
