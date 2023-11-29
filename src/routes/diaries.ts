@@ -5,7 +5,7 @@ import toNewDiaryEntry from "../utils/utils";
 const router = express.Router();
 
 router.get("/", (_req, res) => {
-  res.send(diaryServices.getEntriesWithoutSensitiveInfo());
+  res.send(diaryServices.getEntries());
 });
 
 router.post("/", (req, res) => {

@@ -31,7 +31,7 @@ const diaryServices = __importStar(require("../services/diaryServices"));
 const utils_1 = __importDefault(require("../utils/utils"));
 const router = express_1.default.Router();
 router.get("/", (_req, res) => {
-    res.send(diaryServices.getEntriesWithoutSensitiveInfo());
+    res.send(diaryServices.getEntries());
 });
 router.post("/", (req, res) => {
     try {
